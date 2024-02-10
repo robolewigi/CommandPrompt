@@ -9,6 +9,7 @@ HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
 game game1;
 entity entity1;
 
+<details>
    COORD GetConsoleWindowSize() {
                   CONSOLE_SCREEN_BUFFER_INFO csbi;
                   GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
@@ -142,3 +143,4 @@ while(1)
 }
     return 0;
 }
+</details>
